@@ -21,8 +21,7 @@ public class Menu {
                 d = sc.nextInt();
                 switch (opt) {
                     case 1:
-                        Punto1 p1 = new Punto1();
-                        p1.P1(d, opt);
+
                         break;
                     case 2:
                         break;
@@ -31,8 +30,9 @@ public class Menu {
                     case 4:
                         break;
                     case 5:
-                        Punto5 p5 = new Punto5();
-                        p5.p5(d, opt);
+                    //juan david hincapie
+                        RepuestosYamaha r = new RepuestosYamaha();
+                        r.yamaha();
                         break;
                     case 6:
                         break;
