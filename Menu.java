@@ -24,13 +24,15 @@ public class Menu {
 
                         break;
                     case 2:
+                        P2 p2 = new P2();
+                        p2.Punto2(d);
                         break;
                     case 3:
                         break;
                     case 4:
                         break;
                     case 5:
-                    //juan david hincapie
+                        // juan david hincapie
                         RepuestosYamaha r = new RepuestosYamaha();
                         r.yamaha();
                         break;
